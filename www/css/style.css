@@ -282,7 +282,7 @@ ul.rating li i{color:#FFCC00}
 /** page menu_1 **/
 
 /** page menu_2 **/
-.menu_2-box{background-color: rgba(255, 255, 255, 0.5);}.menu_2-box .item{border-color: rgba(255, 255, 255, 0.5);border-left:0;border-right:0;}
+.menu_2-box{margin-top: 89px;background-color: rgba(182, 182, 182, 0.5);}.menu_2-box .item{border-color: rgba(255, 254, 254, 0.27);border-left:0;border-right:0;}
 /** page slide_tab_menu **/
 
 /** custom css **/
