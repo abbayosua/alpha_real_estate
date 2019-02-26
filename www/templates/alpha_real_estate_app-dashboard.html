@@ -7,16 +7,20 @@
 		<ion-nav-title><img height="40px" src="http://www.alpharealestate.co.id/img/view/logos/xxsm/2018/09/9/5ba4e45a-9090-4f85-9eba-429e0a0a0b65.png" /></ion-nav-title>
 		<!-- content -->
 		<ion-content delegate-handle="top" lazy-scroll  id="page-dashboard" class="dashboard page-dashboard">
-		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css"/>
+	
 <style>
+  @font-face {
+    font-family: GraublauWeb;
+    src: url("data/other/BebasNeue.otf") format("opentype");
+}
   .jarak {
 	margin-top:60px;  
   }
   
   h2 {
-    font-family: 'BebasNeueRegular'; 
+    /* font-family: 'BebasNeueRegular'; 
    font-weight: normal; 
-   font-style: normal;
+   font-style: normal; */
     text-align: center;
   }
   .menu_2-box .item {
@@ -25,14 +29,14 @@
     
   
   .fontbaru {
-     font-family: 'BebasNeueRegular'; 
+     /* font-family: 'BebasNeueRegular'; 
    font-weight: normal; 
    font-style: normal;
-   font-size: 17px;
+   font-size: 17px; */
     color:white;
   }
 </style>
-<div class="padding scroll jarak fontbaru dark">
+<div class="padding scroll jarak fontbaru">
 
     <div class="padding menu_2-box " style>
         
@@ -44,17 +48,17 @@
     <div class="disable-user-behavior menu_2-box fontbaru">
      
       <a class="item item-icon-left" ng-click="openWebView('http://www.alpharealestate.co.id/dijual')" >
-        <i class="positive icon ion-pricetag"></i>
+        <i class="dark icon ion-pricetag"></i>
         Dijual
       </a>
       
       <a class="item item-icon-left" ng-click="openWebView('http://www.alpharealestate.co.id/disewakan')" >
-        <i class="assertive icon ion-ios-pricetag"></i>
+        <i class="dark icon ion-ios-pricetag"></i>
         Disewakan
       </a>
       
       <a class="item item-icon-left" ng-click="openURL('https://wa.me/62895375337772')" >
-        <i class="balanced icon ion-social-whatsapp"></i>
+        <i class="dark icon ion-social-whatsapp"></i>
        Whatsapp Kami
       </a>
       
