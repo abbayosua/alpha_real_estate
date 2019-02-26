@@ -1,0 +1,49 @@
+<ion-tabs class="  tabs-icon-top tabs-background-light tabs-color-dark" data-ink-opacity=".35" >
+	<ion-tab class="menu-dashboard" title="{{ 'Dashboard' | translate }}" icon-off="ion-ios-home-outline" icon-on="ion-ios-home-outline" ui-sref="alpha_real_estate_app.dashboard" >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-dashboard"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="menu-webview" title="{{ 'Whatsapp us' | translate }}" icon-off="ion-social-whatsapp-outline" icon-on="ion-social-whatsapp-outline" ng-click="openURL('https://wa.me/628117766221')" >
+	</ion-tab>
+	<ion-tab class="menu-appbrowser" title="{{ 'Live Chat' | translate }}" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes-outline" ng-click="openWebView('http://bit.ly/chatfwd')" >
+	</ion-tab>
+	<ion-tab class="menu-faqs" title="{{ 'About Us' | translate }}" icon-off="ion-ios-information-outline" icon-on="ion-ios-information-outline" ng-click="openWebView('http://www.alpharealestate.co.id/about')" >
+	</ion-tab>
+	<ion-tab class="menu-rate_this_app" title="{{ 'Our Agent' | translate }}" icon-off="ion-ios-people-outline" icon-on="ion-ios-people-outline" ng-click="openWebView('http://www.alpharealestate.co.id/users/agents')" >
+	</ion-tab>
+	<ion-tab class="hide menu-about_us" title="About Us"  ui-sref="alpha_real_estate_app.about_us"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-about_us"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-dashboard" title="<img height="40px" src="http://www.alpharealestate.co.id/img/view/logos/xxsm/2018/09/9/5ba4e45a-9090-4f85-9eba-429e0a0a0b65.png" />"  ui-sref="alpha_real_estate_app.dashboard"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-dashboard"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-faqs" title="Faqs"  ui-sref="alpha_real_estate_app.faqs"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-faqs"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-form_login" title="Login"  ui-sref="alpha_real_estate_app.form_login"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-form_login"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-form_order" title="Order Service"  ui-sref="alpha_real_estate_app.form_order"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-form_order"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-form_user" title="Register"  ui-sref="alpha_real_estate_app.form_user"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-form_user"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-home" title="Dashboard"  ui-sref="alpha_real_estate_app.home"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-home"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-menu_1" title="<img height="40px" src="http://www.alpharealestate.co.id/img/view/logos/xxsm/2018/09/9/5ba4e45a-9090-4f85-9eba-429e0a0a0b65.png" />"  ui-sref="alpha_real_estate_app.menu_1"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-menu_1"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-menu_2" title="About US"  ui-sref="alpha_real_estate_app.menu_2"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-menu_2"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-order" title="History"  ui-sref="alpha_real_estate_app.order"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-order"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-profile" title="Profile"  ui-sref="alpha_real_estate_app.profile"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-profile"></ion-nav-view>
+	</ion-tab>
+	<ion-tab class="hide menu-slide_tab_menu" title="Menu"  ui-sref="alpha_real_estate_app.slide_tab_menu"  >
+		<ion-nav-view animation="none" name="alpha_real_estate_app-slide_tab_menu"></ion-nav-view>
+	</ion-tab>
+</ion-tabs>

@@ -1,0 +1,34 @@
+	<ion-view view-title="About Us" hide-nav-bar="false" >
+		<!-- popover -->
+		<ion-nav-buttons side="right">
+			<button class="button button-icon button-clear ion-android-more-vertical" id="menu-popover" ng-click="popover.show($event)"></button>
+		</ion-nav-buttons>
+		<!-- ./popover -->
+		<ion-nav-title>About Us</ion-nav-title>
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll  id="page-about_us" class="padding page-about_us">
+		<div class="text-center">
+    <img height="50px" ng-src="http://www.alpharealestate.co.id/img/view/logos/xxsm/2018/09/9/5ba4e45a-9090-4f85-9eba-429e0a0a0b65.png" />
+    <p>Alpha App v0.1</p>
+</div>
+<br/>
+<div class="list card">  
+   <a class="item item-icon-left" ng-click="openURL('mailto:abbasiagian@gmail.com')" >
+    <i class="icon ion-android-mail royal"></i>
+    For Business Cooperation<br/>
+    <span>
+        Email: abbasiagian@gmail.com
+    </span>
+  </a>
+</div>
+<div>
+  <center><a ng-click="openURL('https://wa.me/6285767300929')"><img height="100px" src="https://tribulant.com/blog/wp-content/uploads/2018/08/whatsapp-button.png" /></a></center>
+</div>
+<br/>
+<div class="text-center">
+    <p>&copy; 2019 <a ng-click="openURL('http://abbayosua.design')" >AbbaYosua.Design</a><br/>All Rights Reserved</p>
+</div>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>

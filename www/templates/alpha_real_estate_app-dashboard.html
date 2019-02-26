@@ -1,0 +1,73 @@
+	<ion-view view-title="&lt;img height=&quot;40px&quot; src=&quot;http://www.alpharealestate.co.id/img/view/logos/xxsm/2018/09/9/5ba4e45a-9090-4f85-9eba-429e0a0a0b65.png&quot; /&gt;" hide-nav-bar="false" >
+		<!-- popover -->
+		<ion-nav-buttons side="right">
+			<button class="button button-icon button-clear ion-android-more-vertical" id="menu-popover" ng-click="popover.show($event)"></button>
+		</ion-nav-buttons>
+		<!-- ./popover -->
+		<ion-nav-title><img height="40px" src="http://www.alpharealestate.co.id/img/view/logos/xxsm/2018/09/9/5ba4e45a-9090-4f85-9eba-429e0a0a0b65.png" /></ion-nav-title>
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll  id="page-dashboard" class="dashboard page-dashboard">
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css"/>
+<style>
+  .jarak {
+	margin-top:60px;  
+  }
+  
+  h2 {
+    font-family: 'BebasNeueRegular'; 
+   font-weight: normal; 
+   font-style: normal;
+    text-align: center;
+  }
+  .menu_2-box .item {
+        font-size: 21px;
+  }
+    
+  
+  .fontbaru {
+     font-family: 'BebasNeueRegular'; 
+   font-weight: normal; 
+   font-style: normal;
+   font-size: 17px;
+    color:white;
+  }
+</style>
+<div class="padding scroll jarak fontbaru dark">
+
+    <div class="padding menu_2-box " style>
+        
+          <h2>Cari hunian idaman anda hari ini juga!</h2>
+        
+    </div>
+    <br/>
+
+    <div class="disable-user-behavior menu_2-box fontbaru">
+     
+      <a class="item item-icon-left" ng-click="openWebView('http://www.alpharealestate.co.id/dijual')" >
+        <i class="positive icon ion-pricetag"></i>
+        Dijual
+      </a>
+      
+      <a class="item item-icon-left" ng-click="openWebView('http://www.alpharealestate.co.id/disewakan')" >
+        <i class="assertive icon ion-ios-pricetag"></i>
+        Disewakan
+      </a>
+      
+      <a class="item item-icon-left" ng-click="openURL('https://wa.me/62895375337772')" >
+        <i class="balanced icon ion-social-whatsapp"></i>
+       Whatsapp Kami
+      </a>
+      
+       <a class="item item-icon-left" ng-click="openWebView('http://www.alpharealestate.co.id/login')" >
+        <i class="dark icon ion-ios-people"></i>
+        Staff Login
+      </a>
+      
+    </div>
+    <br/>
+</div>
+<br/><br/><br/>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
